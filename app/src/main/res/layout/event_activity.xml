@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/editext_style"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/event_name_et"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/reg_btn_style"
+        android:gravity="center"
+        android:hint="@string/event_name"
+        android:padding="2dp"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:text="@string/from"
+            android:textColor="@color/lightBlue"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/till"
+            android:textColor="@color/lightBlue"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/from_date_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/reg_btn_style"
+            android:clickable="true"
+            android:gravity="center"
+            android:hint="@string/from_date"
+            android:padding="2dp"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimary"/>
+
+        <Button
+            android:id="@+id/till_date_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/reg_btn_style"
+            android:clickable="true"
+            android:gravity="center"
+            android:hint="@string/till_date"
+            android:padding="2dp"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/from_time_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/reg_btn_style"
+            android:clickable="true"
+            android:gravity="center"
+            android:hint="@string/from_time"
+            android:padding="2dp"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimary"/>
+
+        <Button
+            android:id="@+id/till_time_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/reg_btn_style"
+            android:clickable="true"
+            android:gravity="center"
+            android:hint="@string/till_time"
+            android:padding="2dp"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/location_et"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        android:background="@drawable/reg_btn_style"
+        android:gravity="center"
+        android:hint="@string/location"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimary"/>
+
+
+    <EditText
+        android:id="@+id/details_et"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="6"
+        android:background="@drawable/reg_btn_style"
+        android:gravity="top|start"
+        android:hint="@string/details"
+        android:padding="2dp"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+
+        <EditText
+            android:id="@+id/link_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/reg_btn_style"
+            android:gravity="center"
+            android:hint="@string/event_link"
+            android:inputType="textWebEditText"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimary"/>
+
+        <Button
+            android:id="@+id/link_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="3"
+            android:background="@drawable/reg_btn_style"
+            android:text="@string/go_to"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/phone_et"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/reg_btn_style"
+        android:gravity="center"
+        android:hint="@string/phone_for_info"
+        android:inputType="phone"
+        android:padding="2dp"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/reg_btn_style"
+            android:text="@string/back_"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/clean_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/reg_btn_style"
+            android:text="@string/clean_"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

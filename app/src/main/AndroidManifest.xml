@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.golan.EventsWithFriends">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_event_note_black_24dp"
+        android:label="EventsWithFriends"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:label">
+        <activity android:name="com.example.golan.EventWithFriends.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.golan.EventWithFriends.call_activity"
+            android:label="call please"
+            android:icon="@drawable/ic_smartphone_black_24dp"
+            />
+
+        <activity android:name="com.example.golan.EventWithFriends.email_activity"
+            android:label="Mail me"
+            android:icon="@drawable/ic_mail_outline_black_24dp">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.golan.EventWithFriends.event_activity"
+            android:label="new event"
+            android:icon="@drawable/ic_contacts_black_24dp"/>
+
+        <activity android:name="com.example.golan.EventWithFriends.SMSActivity"
+            android:label="send SMS"
+            android:icon="@drawable/ic_sms_black_24dp"/>
+    </application>
+
+</manifest>

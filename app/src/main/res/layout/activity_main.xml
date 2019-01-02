@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000">
+
+
+    <Button
+        android:id="@+id/new_event_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/reg_btn_style"
+        android:text="@string/New_Event"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:layout_margin="12dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/calling_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/reg_btn_style"
+        android:text="@string/call"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:layout_margin="12dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:textColor="@color/colorPrimary"
+
+        >
+
+        <Button
+            android:id="@+id/email_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/reg_btn_style"
+            android:text="@string/email"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:layout_margin="12dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <Button
+            android:id="@+id/SMS_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/reg_btn_style"
+            android:text="@string/sms"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:layout_margin="12dp"
+            android:textColor="@color/colorPrimary"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calender_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/reg_btn_style"
+        android:text="@string/Add_to_calender"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:layout_margin="12dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <Button
+        android:id="@+id/alarm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/reg_btn_style"
+        android:text="@string/Add_alarm_clock"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:layout_margin="12dp"
+        android:textColor="@color/colorPrimary"/>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CallAndText</string>
+    <string name="event_name">הכנס שם האירוע</string>
+    <string name="till">עד:</string>
+    <string name="from">מ:</string>
+    <string name="from_date">מתאריך</string>
+    <string name="till_date">עד תאריך</string>
+    <string name="till_time">עד שעה</string>
+    <string name="from_time">משעה</string>
+    <string name="location">מיקום</string>
+    <string name="details">פרטים</string>
+    <string name="event_link">קישור לאירוע</string>
+    <string name="phone_for_info">טלפון למידע</string>
+    <string name="clean_">נקה</string>
+    <string name="back_">חזור</string>
+    <string name="New_Event">אירוע חדש</string>
+    <string name="call">חייג</string>
+    <string name="Add_to_calender">הוסף ללוח שנה</string>
+    <string name="Add_alarm_clock">אוסף שעון מעורר</string>
+    <string name="add_text_to_send">הוסף טקסט לשליחה</string>
+    <string name="done">בוצע</string>
+    <string name="pick_email">"בחר אימייל "</string>
+    <string name="pick_phone">בחר טלפון</string>
+    <string name="enter_subject">הכנס נושא</string>
+    <string name="go_to">"כנס "</string>
+    <string name="sms">מסרון</string>
+    <string name="email">אימייל</string>
+</resources>

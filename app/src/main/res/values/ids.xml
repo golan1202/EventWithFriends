@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_delete" type="id" />
+    <item name="btn_sulamit" type="id" />
+    <item name="btn_star" type="id" />
+    <item name="btn_0" type="id" />
+    <item name="btn_9" type="id" />
+    <item name="btn_8" type="id" />
+    <item name="btn_7" type="id" />
+    <item name="btn_6" type="id" />
+    <item name="btn_5" type="id" />
+    <item name="btn_4" type="id" />
+    <item name="btn_3" type="id" />
+    <item name="btn_2" type="id" />
+    <item name="btn_1" type="id" />
+    <item name="phone_et" type="id" />
+</resources>

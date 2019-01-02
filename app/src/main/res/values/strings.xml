@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CallAndText</string>
+    <string name="event_name">Enter event name</string>
+    <string name="from">From</string>
+    <string name="till">Till</string>
+    <string name="from_date">From date</string>
+    <string name="till_date">Till date</string>
+    <string name="from_time">From time</string>
+    <string name="till_time">Till time</string>
+    <string name="location">Location</string>
+    <string name="details">Details</string>
+    <string name="event_link">Event link</string>
+    <string name="phone_for_info">Phone for Info</string>
+    <string name="back_">back</string>
+    <string name="clean_">clean</string>
+    <string name="New_Event">New Event</string>
+    <string name="call">Call</string>
+    <string name="Add_to_calender">Add to calender</string>
+    <string name="Add_alarm_clock">Add alarm clock</string>
+    <string name="add_text_to_send">Add text to send</string>
+    <string name="done">Done</string>
+    <string name="pick_email">Pick email</string>
+    <string name="pick_phone">Pick phone</string>
+    <string name="enter_subject">Enter subject</string>
+    <string name="go_to">Go to</string>
+    <string name="email">Email</string>
+    <string name="sms">SMS</string>
+</resources>
